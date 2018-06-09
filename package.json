@@ -1,0 +1,17 @@
+{
+  "name": "cordova-plugin-amazon-iap",
+  "version": "2.0.0",
+  "description": "Amazon In-App Purchasing",
+  "cordova": {
+    "id": "cordova-plugin-amazon-iap",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Amazon",
+  "license": "Apache-2.0"
+}
