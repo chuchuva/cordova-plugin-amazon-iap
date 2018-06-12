@@ -13,5 +13,6 @@
     "cordova-android"
   ],
   "author": "Amazon",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "repository": "chuchuva/cordova-plugin-amazon-iap"
 }
