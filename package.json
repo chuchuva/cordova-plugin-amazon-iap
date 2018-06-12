@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-amazon-iap",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Amazon In-App Purchasing",
   "cordova": {
     "id": "cordova-plugin-amazon-iap",
