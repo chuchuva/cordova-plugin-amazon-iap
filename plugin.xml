@@ -40,7 +40,7 @@
     </config-file>
 
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
-      <receiver android:name="com.amazon.device.iap.ResponseReceiver">
+      <receiver android:enabled="true" android:exported="true" android:name="com.amazon.device.iap.ResponseReceiver">
         <intent-filter>
           <action android:name="com.amazon.inapp.purchasing.NOTIFY"
                   android:permission="com.amazon.inapp.purchasing.Permission.NOTIFY"/>
@@ -53,7 +53,6 @@
     <source-file src="src/android/AmazonIapV2JavaControllerImpl.java" target-dir="src/com/amazon/device/iap/cpt" />
     <lib-file src="libs/AmazonCptPluginsUtils-1.0.jar" />
     <lib-file src="libs/AmazonIapV2JavaService-1.0.jar" />
-    <lib-file src="libs/gson-2.2.4.jar" />
     <lib-file src="libs/in-app-purchasing-2.0.76.jar" />
   </platform>
 </plugin>
